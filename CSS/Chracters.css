@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(#bdc3c7, #753a88);
+  display: inline-block;
+}
+#logo {
+  width: 255px;
+  float: left;
+  margin: -2px 0 0 0px;
+}
+
+.card7 {
+  display: inline-block;
+  position: relative;
+  width: 320px;
+  height: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-wrap: wrap;
+  margin: 80px;
+  box-shadow: 15px 15px 0 0 rgb(48, 36, 36);
+}
+.card7 .poster img {
+  width: 100%;
+  display: inline-block;
+}
+.card7 .details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  width: 100%;
+  z-index: 2;
+  display: inline-block;
+}
+.card7 .details h3 {
+  font-size: 40px;
+  color: #fff;
+  display: inline-block;
+}
+.main {
+  justify-content: space-between;
+}
